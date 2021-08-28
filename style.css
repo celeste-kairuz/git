@@ -1,0 +1,348 @@
+*{  margin:0 ;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.encabezado{
+      background-color: beige;
+
+}
+
+
+.encabezado__nav{
+
+      background-size: cover;
+      background-color: darksalmon;
+      padding: 20px;
+
+}
+
+.encabezado__nav__logo{
+      padding: 5px;
+      margin: 5px;
+      width: 120px;
+      height: 80px;
+     
+
+}    
+
+.encabezado__nav__lista{
+      float: right;
+      color: black;
+
+}
+
+li{
+
+      display: inline-table;
+     width: 20px;
+     height: 5px;
+     padding: 10px;
+    
+    
+}
+
+#fototitulo{
+     width: 1000px;
+     height: 300px;
+     padding: 10px;
+     position: center;
+
+}
+
+
+.seccion__titulo{
+    
+      text-align-last: center;
+      color: orangered;
+      background-color: navajowhite;
+      font-style: italic;
+      font-size: 40px;
+
+} 
+
+
+.seccion__texto{
+
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align-last: left;
+      color: red;
+      font-size: 20px;
+
+}
+
+
+    
+.seccion__subtitulo{
+
+      font-style: oblique;
+      text-align-last: center;
+      color: indianred;
+      font: size 30px; 
+}
+
+
+
+
+.imagen__1{
+
+      background-color: tan ;
+      padding:10px;
+
+}
+
+
+.imagen__2{
+      background-color: wheat;
+      padding: 10px;
+      background-position: center;
+
+}
+
+.imagen__3{
+      background-color: whitesmoke;
+      padding: 10px;
+      background-position: right;
+    
+} 
+
+
+.texto{
+
+      font-style: oblique;
+      text-align: center;
+      color: darkred;
+    
+}
+    
+.contacto{
+
+      background-color: lightsalmon;
+      padding: 50px;
+
+}
+
+
+.contacto__titulo{
+
+      font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.contacto__titulo__texto{
+      
+      padding: 10px;
+      font-style: oblique;
+      color: mediumvioletred;
+
+}
+
+.contacto__iconos{
+
+      width: 30px;
+      height: 30px;
+}  
+.contacto__redes{ 
+      
+      display: grid;
+      grid-template-columns:  1fr 20fr; 
+      grid-template-rows:2fr 2fr 2fr;
+}   
+
+
+
+.footer__derechos{
+     text-align: center;
+     color: black;
+     padding: 10px;
+
+}
+
+
+
+    /*comienzo de html de preeguntas*/
+
+
+
+.preguntas{ 
+
+      text-align-last: center;
+      background-color: navajowhite;
+      font-style: italic;
+      color: tomato ;
+      padding: 50px
+     
+}
+
+
+.preguntas__frecuentes{
+
+      background-color: navajowhite;
+      font-style: italic;
+      color: tomato ;
+      margin: 10px;
+      border: crimson;
+      font-family: 'Amatic SC', cursive;
+
+    
+}
+
+    
+.preguntas__1{
+
+   
+      text-align-last: left;
+      color: darkred;
+
+
+}
+
+
+.preguntas__2{
+
+      font-style: oblique;
+      text-align-last: left;
+      color: red;
+
+}
+
+
+.preguntas__1{
+    
+      text-align-last: left;
+      color: darkred;
+
+ }
+
+
+.preguntas__2{
+
+      font-style: oblique;
+      text-align-last: left;
+      color: red;
+
+
+}
+
+
+.preguntas__1{
+
+      text-align-last: left;
+      color: darkred;
+
+}
+.preguntas__2{
+
+      font-style: oblique;
+      text-align-last: left;
+      color: red;
+
+}
+
+
+.preguntas__1{
+
+      text-align-last: left;
+      color: darkred;
+
+
+}
+
+
+.preguntas__2{
+
+      font-style: oblique;
+      text-align-last: left;
+      color: red;
+
+}
+
+
+/* comienzan las promos*/
+.sector{
+      padding:10px;
+    
+}
+
+.sector__promo{
+      background-color: darksalmon;
+      text-align-last: center;
+      font-style: italic;
+      color: rgb(220, 68, 68);
+     
+}
+
+.promo__lista{
+
+      color: deeppink;
+      padding: 50px;
+      font-family: Arial, Helvetica, sans-serif ;
+}
+
+/*seccion precios*/
+
+.seccion{
+      padding: 10px; 
+      color: deeppink;
+      
+
+}
+
+
+.seccion__precio{
+
+      padding: 50px;
+      background-color:bisque;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    
+
+}
+
+
+.seccion__precio__promo{
+      padding: 40px;
+      width: 400px;
+      height: 400px; ;
+
+      
+
+}
+/*seccion formularios*/
+
+
+
+.seccion__contenido{
+      padding: 50px;
+      background-color:navajowhite;
+     
+}
+
+
+.formulario__enviar{
+      padding:30px ;
+      background-color: navajowhite ;
+}
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
