@@ -1,0 +1,254 @@
+/*reseteo*/
+ *{   margin:0 ;
+    padding:0 ;
+
+}
+@import url('https://fonts.googleapis.com/css2? family = Shadows + Into + Light & display = swap');
+/*index*/
+.encabezado{
+    background-color:bisque;
+}
+.encabezado__nav{
+    text-align: right;
+    list-style-type: none;
+    padding: 10;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:flex-end  ;
+    
+}
+.logo{
+    padding:5px;
+    margin:5px;
+    width: 200px;
+    height: 100px; 
+    text-align:left ;
+}
+.encabezado_nav__lista{
+text-align: right;
+list-style-type: none;
+padding: 10;
+display: flex;
+flex-wrap:wrap ;
+justify-content:flex-end ;
+
+}
+li{
+    display:inline-table;
+    width: 20px;
+    height: 5px;
+    padding: 10px;
+}
+.titulo{
+    font-style: oblique;
+    color:orangered;
+    text-align-last: center;
+    padding: 10px;
+}
+#fototitulo{
+    width: 1350px; 
+    height: 450px;
+    padding:10px;
+    position:center;
+
+}
+.fondo__portada{
+    width: 800px;
+    height: 400px;;
+
+
+}
+.seccion{
+    width: 100%;
+    padding: 10px;
+
+}
+.seccion__titulo{
+    text-align-last: center ;
+    color: orangered;
+    font-style: italic;
+    font-size: 40px;
+    padding:20px;
+}
+.seccion__contenido{
+    padding:20px;
+}
+
+.seccion__texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align-last: left;
+    color:red ;
+    font-size:20px ;
+
+}
+.seccion__subtitulo{
+     font-style: oblique;
+     text-align-last:center;
+     color:indianred;
+     font-size:30px ;
+
+}
+
+.imagen{
+    background-color: bisque;
+    display: flex;
+    color: coral;
+    width: 100%;
+    height:300px ;
+}
+
+.imagen__1{
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+
+}
+.imagen__2{
+    padding:10px;
+    width: 400px;
+    height: 200px;
+
+}
+.imagen__3{
+    padding:10px;
+    width:400px;
+    height: 200px;
+}
+.contacto__titulo{
+    text-align: left;
+    color:darksalmon ;
+    font-style: normal;
+    
+
+}
+.contacto__titulo__texto{
+    text-align: right;
+    color: darksalmon;
+    font-style: normal ;
+
+}
+.contacto__redes{
+    text-align: center;
+    color: darksalmon;
+    font-style: normal;
+}
+/*formulario*/
+
+.formulario__enviar{
+    padding: 30px;
+    background-color: navajowhite;
+}
+
+.formulario__item{
+    color: darksalmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.formulario__checkbox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darksalmon;
+}
+/*seccion mujeres*/
+
+.seccion__precio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darksalmon;
+    text-align: center;
+
+}.seccion__precio__lista{
+    font-style: normal;
+    color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*seccion preguntas*/
+
+.preguntas__frecuentes{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color:lightcoral;
+
+}
+.preguntas__1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    color: lightcoral;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.preguntas__2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seccion__precio__promo{
+    width: 600px;
+    height: 400px;
+
+}
+/*aside*/
+
+.contacto{
+    background-color: darksalmon;
+    width: 100%;
+    height:300px ;
+    padding: 20px;
+
+}
+
+
+.contacto__titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    width: 100%;
+    height: 30px;
+
+}
+
+.contacto__titulo__texto{
+    text-align:left ;
+    color: black;
+    width:100% ;
+    height: 30px;
+    
+    
+
+}
+.contacto__1{
+    width: 100%;
+    height: 40px;
+    display :flex ;
+    flex-direction: column-reverse;
+    
+    
+    
+    
+  
+}
+.contacto__redes{
+    width:30px;
+    height: 30px;
+    
+     
+
+}   
+.footer{
+    width: 100%;
+    height:20px ;
+    
+    background-color: bisque,
+    
+}
+.footer__derechos{
+    text-align: center ;
+    padding: 10px;
+    font-size:100%;
+    width: 100%;
+    height: 10px;
+
+}
+
+
+
+
+
+
+
